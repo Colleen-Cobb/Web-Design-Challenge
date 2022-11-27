@@ -19,11 +19,12 @@
 
   <body>
     <!-- Start of navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div>class="container">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
   
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
@@ -55,15 +56,12 @@
       <div class="row">
         <div class="col-md-6">
           <div class="" col-md-12>
-            <h3>Summary: Latitude vs. X</h3>
+            <h3>Temperature</h3>
             <hr>
-            <img id="sample-image" src="assets/images/Fig1.png" alt="temperature vs. latitude">
+            <img src="assets/images/Fig1.png" width="50%" alt="cloudiness vs. latitude">
             <br>
             <!--Description of the plot below the image-->
-            <p>The purpose of this project was to analyze various weather changes as you move from one specturm of the equator to the other including cloudiness, temperature, wind speed, and humidity.
-               Over 500 citites from across the world were analyzed to uncover these changes and the results are displayed in various scatter plots. Data from the OpenWeatherMap API was utilized to gather data in order to execute the data visualizations. </p>
-               <br>
-            <p>Matplotlib was used to create the visualizations between latitude and the four variable mentioned above.   </p>
+            <p>The visualization above shows the relationship between city latitude and temperature. There is an inverse relationship between latitude and temperature. As the latitude increases from a negative value, temperature decreases.</p>
         </div>
      
 
@@ -101,3 +99,5 @@
   </body>
 
 </html>
+
+
