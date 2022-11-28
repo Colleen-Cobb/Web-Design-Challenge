@@ -25,3 +25,11 @@ a {
   height: 200px;
   margin-right: 20px;
 }
+
+button {
+  margin-right: 30px;
+}
+
+table {
+  color: rgb(66, 197, 226)
+}
