@@ -9,16 +9,16 @@ The visualizations were then used to create a website that allows the user to se
 
 The website consists of the following pages:
 
-Landing page
+###
+Landing page that explains the purpose of the project as well as a link to each of the four visualiztion pages. 
 
-Comparison page
+Comparison page: This page compares each of the four visualizations(cloudiness, temperature, humidity, and wind speed).
 
-Data page
+Data page: This page displays a responsive table of each city that was analyzed and the data within it. 
 
-Four visualization pages
+Four visualization pages: Each visualization page contains a descriptive title and heading and compares one of the four factors (cloudiness, temperature, humidity, and wind speed). 
 
 ## Analysis
-
 
 Matplotlib was used to visualize the results of this data and uncover trends between latitude of cities and various variables such as maximum temperature (F), cloudiness, humidity percentage, and wind speed (mph). There are multiple scatter plots within WeatherPy that portray the relationships among latitude and previously stated variables, some including linear regression models to determine if there is a predictive value among the two variables.
 
