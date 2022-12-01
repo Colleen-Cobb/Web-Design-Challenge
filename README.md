@@ -10,13 +10,13 @@ The visualizations were then used to create a website that allows the user to se
 The website consists of the following pages:
 
 ###
-Landing page that explains the purpose of the project as well as a link to each of the four visualiztion pages. 
+Landing page: This page explains the purpose of the project as well as a link to each of the four visualiztion pages. 
 
 Comparison page: This page compares each of the four visualizations(cloudiness, temperature, humidity, and wind speed).
 
 Data page: This page displays a responsive table of each city that was analyzed and the data within it. 
 
-Four visualization pages: Each visualization page contains a descriptive title and heading and compares one of the four factors (cloudiness, temperature, humidity, and wind speed). 
+Four visualization pages: Each visualization page contains a descriptive title and heading and compares latitude to one of the four factors to  (cloudiness, temperature, humidity, and wind speed). 
 
 ## Analysis
 

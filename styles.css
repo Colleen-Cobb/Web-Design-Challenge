@@ -33,3 +33,7 @@ button {
 table {
   color: rgb(66, 197, 226)
 }
+
+.nav-item {
+  float: right;
+}
